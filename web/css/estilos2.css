@@ -1,0 +1,17 @@
+.largo_ventana{  
+    width: 100%;
+    height: 65vh;   
+}
+
+nav.navbar{
+    background-color: #692011  
+}
+
+.color-btn-cliente:hover{
+    color: black;
+    background-color: #4E170C; 
+}
+
+footer.text-center{
+    background-color: #4E170C
+}

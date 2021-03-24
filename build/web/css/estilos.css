@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-10-2020, 17:22:18
+    Author     : Nilvia S Miranda
+*/
+
+
+
+
+body{
+   
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    
+
+}
+
+h1{
+    font-family: Arizonia
+
+
+
+}
+
+.fondo-principal{
+    background-image: url("../img/background_page.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative
+    
+}
+.fondo-principal:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+    opacity: 0.8       
+}
+.modificacion-navbar{
+    background-color: #484848;
+    height: 100px   
+}
+.topnav {
+    overflow: hidden;
+    background-color: #484848;
+}
+.topnav a {    
+    color: #989898;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.mod-navbar{
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #484848    
+}
+
+nav a{
+    color: #989898
+}
+
+.pagina-principal{
+    color: #989898;
+    background-color: black
+}
+.pagina-principal:hover{
+    color: black;
+    background-color: #ddd;
+}
+.boton-navbar:hover{
+    color: black;
+    background-color: #ddd; 
+}
+.boton-entrar-sesion{
+    font-size: 24px;
+    width: 250px;
+    padding: 20px 40px
+}
+
+.boton-facturacion{
+    font-size: 20px;
+    width: 250px;
+    padding: 20px 40px
+}
+
+.boton_tamano{
+    width: 70px;
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+.color-icono-navbar{    
+    color: white
+}
+.footer-principal{
+    background-color: #484848
+}
+.pruebas43{
+  position: static
+}
+.fondo-inicio-sesion{
+    background-color: grey
+}
+.salto-linea::before{ 
+    content: '\A'; 
+    white-space: pre
+}
+
+.color-fondo-habitaciones{
+    background-color: #397CB8
+}
+
+
